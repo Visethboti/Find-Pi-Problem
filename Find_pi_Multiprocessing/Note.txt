@@ -1,0 +1,6 @@
+stress test with findpi(500000000, 12, 12) with n = 500,000,000
+	result: memory crashed, CPU and Meory usuage high after crashed, lagging
+		fix: need to force close task (python task) in task manager
+
+recommandation: Use Number of Worker Processes no higher than 10 or 11, leave at least some cores/processors for laptop
+		system usage to prevent slowing and lagging.
